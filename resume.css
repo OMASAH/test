@@ -1,203 +1,95 @@
-/* ========== Reset & Base ========== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+#website_header{
+color:darkblue;
+border:solid 10px;
+border-style: groove;
+border-radius: 50px;
+text-align: center;
+font-size: 60px;
+border-color: aqua;
+
+
+
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
+
+.website_wrapper{
+color: blue;
+font-size: 30px;
+border: solid;
+border-radius: 50px;
+border-end-end-radius: 400px;
+padding: 5px ;
+margin: 20px;
+margin-right: 1000px;
+border-color: chartreuse;
+
 }
 
-/* ========== Header ========== */
-#website_header {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 30px;
+
+.contact{
+font-size: 20px;
+border: solid;    
+border-left-color: blueviolet;
+border-right-color: blueviolet;
+border-radius: 35px;
+margin: 1px 70px 10px 70px;
+
+
+
+
 }
 
-/* ========== Wrapper ========== */
-.website_wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+.name{
+    color: blueviolet;
+    text-align: center;
+  border: solid;
+  border-radius: 50px;
+  border-start-end-radius: 500px;
+  border-end-start-radius: 300px;
+  border-end-end-radius: 500px;
+  margin: 100px 5px 5px 5px ;
+font-family: changa;
+font-weight: 900;
+
+
+}
+.email{
+    color: blueviolet;
+    text-align: center;
+  border: solid;
+  border-radius: 50px;
+  border-start-end-radius: 500px;
+  border-end-start-radius: 300px;
+  border-end-end-radius: 500px;
+  margin: 100px 5px 5px 5px ;
+font-family: changa;
+font-weight: 900;
+    
 }
 
-/* ========== Sections ========== */
-h2, .section-title {
-  font-size: 1.3rem;
-  color: #34495e;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 5px;
+.pic{ 
+
+    border: dashed;
+    border-radius: 15px;
+    margin-right: 1190px;
+    margin-left: 10px;
 }
 
-p {
-  margin-bottom: 10px;
+.skills{
+    color: blue;
+    font-size: 30px;
+    border: solid;
+    border-radius: 50px;
+    border-end-end-radius: 400px;
+    padding: 5px ;
+    margin: 20px;
+    margin-right: 1000px;
+    border-color: chartreuse;
 }
 
-ul {
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
 
-ul li {
-  margin-bottom: 6px;
-}
 
-/* ========== Contact Info ========== */
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
 
-.pic img {
-  width: 130px;
-  max-width: 100%;
-  border-radius: 10px;
-  border: 3px solid #ddd;
-}
 
-.contact-info {
-  flex: 1;
-  min-width: 200px;
-}
-
-/* ========== Labels ========== */
-span.name, span.email {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-/* ========== Responsive ========== */
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-
-  .website_wrapper {
-    padding: 20px;
-  }
-
-  #website_header {
-    font-size: 1.5rem;
-  }
-
-  h2, .section-title {
-    font-size: 1.1rem;
-  }
-}/* ========== Reset & Base ========== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-}
-
-/* ========== Header ========== */
-#website_header {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 30px;
-}
-
-/* ========== Wrapper ========== */
-.website_wrapper {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* ========== Sections ========== */
-h2, .section-title {
-  font-size: 1.3rem;
-  color: #34495e;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 5px;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-ul {
-  padding-left: 20px;
-  margin-bottom: 10px;
-}
-
-ul li {
-  margin-bottom: 6px;
-}
-
-/* ========== Contact Info ========== */
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-
-.pic img {
-  width: 130px;
-  max-width: 100%;
-  border-radius: 10px;
-  border: 3px solid #ddd;
-}
-
-.contact-info {
-  flex: 1;
-  min-width: 200px;
-}
-
-/* ========== Labels ========== */
-span.name, span.email {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-/* ========== Responsive ========== */
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-
-  .website_wrapper {
-    padding: 20px;
-  }
-
-  #website_header {
-    font-size: 1.5rem;
-  }
-
-  h2, .section-title {
-    font-size: 1.1rem;
-  }
-}
