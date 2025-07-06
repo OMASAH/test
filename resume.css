@@ -1,95 +1,107 @@
-
-
-#website_header{
-color:darkblue;
-border:solid 10px;
-border-style: groove;
-border-radius: 50px;
-text-align: center;
-font-size: 60px;
-border-color: aqua;
-
-
-
+/* ========== Reset & Base ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.website_wrapper{
-color: blue;
-font-size: 30px;
-border: solid;
-border-radius: 50px;
-border-end-end-radius: 400px;
-padding: 5px ;
-margin: 20px;
-margin-right: 1000px;
-border-color: chartreuse;
-
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e8f0ff, #fefeff);
+  color: #2c3e50;
+  padding: 20px;
+  line-height: 1.7;
 }
 
-
-.contact{
-font-size: 20px;
-border: solid;    
-border-left-color: blueviolet;
-border-right-color: blueviolet;
-border-radius: 35px;
-margin: 1px 70px 10px 70px;
-
-
-
-
+/* ========== Header ========== */
+#website_header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+  margin-bottom: 30px;
 }
 
-.name{
-    color: blueviolet;
-    text-align: center;
-  border: solid;
-  border-radius: 50px;
-  border-start-end-radius: 500px;
-  border-end-start-radius: 300px;
-  border-end-end-radius: 500px;
-  margin: 100px 5px 5px 5px ;
-font-family: changa;
-font-weight: 900;
-
-
-}
-.email{
-    color: blueviolet;
-    text-align: center;
-  border: solid;
-  border-radius: 50px;
-  border-start-end-radius: 500px;
-  border-end-start-radius: 300px;
-  border-end-end-radius: 500px;
-  margin: 100px 5px 5px 5px ;
-font-family: changa;
-font-weight: 900;
-    
+/* ========== Wrapper ========== */
+.website_wrapper {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
-.pic{ 
-
-    border: dashed;
-    border-radius: 15px;
-    margin-right: 1190px;
-    margin-left: 10px;
+/* ========== Section Headings ========== */
+h2 {
+  font-size: 1.4rem;
+  color: #2563eb;
+  border-left: 5px solid #3b82f6;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
-.skills{
-    color: blue;
-    font-size: 30px;
-    border: solid;
-    border-radius: 50px;
-    border-end-end-radius: 400px;
-    padding: 5px ;
-    margin: 20px;
-    margin-right: 1000px;
-    border-color: chartreuse;
+/* ========== Text & Lists ========== */
+p, li {
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
+ul {
+  padding-left: 20px;
+}
 
+/* ========== Contact Info ========== */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
 
+.pic img {
+  width: 130px;
+  border-radius: 50%;
+  border: 4px solid #3b82f6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
 
+.contact-info p {
+  margin-bottom: 8px;
+}
+
+span.name,
+span.email {
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  #website_header {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .pic img {
+    width: 100px;
+  }
+}
